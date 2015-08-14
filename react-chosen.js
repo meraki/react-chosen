@@ -32,7 +32,8 @@
           single_backstroke_delete: props.singleBackstrokeDelete,
           width: props.width,
           display_disabled_options: props.displayDisabledOptions,
-          display_selected_options: props.displaySelectedOptions
+          display_selected_options: props.displaySelectedOptions,
+          create_option: props.createOption
         })
         .on('chosen:maxselected', this.props.onMaxSelected)
         .change(this.handleChange);
