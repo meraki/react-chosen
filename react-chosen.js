@@ -60,7 +60,7 @@
       // chosen onto jQuery. Note that due to the nature of the third-party
       // chosen npm shim, we still need to manually include jQuery at the top
       // level.
-      require('drmonty-chosen');
+      require('script!private/javascripts/chosen.jquery.js');
       module.exports = Chosen;
     }
 })(
